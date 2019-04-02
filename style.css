@@ -1,0 +1,66 @@
+body {
+  font-size: 18px;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1rem;
+}
+.no_vision {
+  display: none;
+}
+.lpage {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.lpage_wraper_assoc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lpage_item {
+  max-width: 300px;
+  border: 1px solid black;
+  /* margin: 0 auto; */
+  padding: 10px;
+  text-align: left;
+}
+
+.lpage_wraper_join {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lpage_item_join {
+  max-width: 450px;
+  border: 1px solid black;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+  padding: 10px;
+  text-align: left;
+}
+.lpage_card {
+  display: flex;
+  flex-direction: row;
+  /* padding: 20px; */
+  padding-top: 20px;
+
+  flex-wrap: wrap;
+  /* margin: 0 auto; */
+}
+.lpage_card_item {
+  max-width: 300px;
+  /* min-width: 300px; */
+  width: 300px;
+  border: 1px solid black;
+  margin: 8px auto;
+  text-align: center;
+  padding: 10px 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
